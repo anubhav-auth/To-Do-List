@@ -1,0 +1,25 @@
+body {
+    background-color: red;
+    height: 100vh;
+}
+
+.mainContainer {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 18px;
+    border-radius: 25px;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+li:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.checked{
+    text-decoration:line-through;
+}
